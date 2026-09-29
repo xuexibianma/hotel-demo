@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f2eb;
+  color: #16324f;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 10%;
+}
+
+.hero div {
+  max-width: 700px;
+}
+
+.eyebrow {
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+  color: #0f766e;
+}
+
+h1 {
+  font-size: clamp(54px, 8vw, 100px);
+  line-height: 0.95;
+  margin-bottom: 30px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 520px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 32px;
+  padding: 14px 24px;
+  background: #16324f;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
